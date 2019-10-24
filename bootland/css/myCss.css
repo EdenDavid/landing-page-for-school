@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+}
+.logo{
+    width: 15%;
+    height: 15hv;
+    
+    
+}
+.jumbotron{
+    position: relative;
+    top: -50px;
+}
+
+.cname{
+    font-family: "Comic Sans MS";
+    font-size: 4em;
+    font-style: italic;
+    
+    
+    
+}
+.whoarewe{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5em;
+    color: chocolate;
+    font-style: italic;
+    
+   
+}
+
+.containCarousel{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+    
+}
+.carousel-inner{
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.moreonus{
+    font-size: 1.2em;
+}
+.sucssess{
+    margin: 0 auto;
+    
+}
+@media only screen and (max-width: 768px) {
+   body{
+       background-color: black;
+    }
+
+       .containCarousel{
+        width: 100%;
+       height: auto;
+    }
+    .carousel-inner{
+        width: 100%;
+        height: auto;
+    }
+       
+    .jumbotron{
+        position: relative;
+        top: -5px;
+    } 
+  
+  }
